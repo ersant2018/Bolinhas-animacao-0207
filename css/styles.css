@@ -1,0 +1,43 @@
+.wrap{
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container{
+    display: inline-block;
+    width: 33%;
+}
+
+h1{
+    color: blue;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.box{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 30px auto;
+}
+
+.wrap:hover .box{
+    transform: scale(2);
+}
+
+.box1{
+    background: royalblue;
+    transition: 300ms;    
+}
+
+.box2{
+    background: forestgreen;
+    transition: 1s;
+}
+
+.box3{
+    background: purple;
+    transition: 3s;
+}
